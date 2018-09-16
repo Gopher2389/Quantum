@@ -1,0 +1,13 @@
+// helm
+[type] == helm && ([Quality] == Magic || [Quality] == Rare || [Quality] == Unique) && [Flag] == Ethereal # [Defense] >= 30 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 10
+[type] == helm && ([Quality] == Magic || [Quality] == Rare || [Quality] == Unique) && [Flag] != Ethereal # [Defense] >= 30 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 10
+
+// armor
+[type] == armor && ([Quality] == Magic || [Quality] == Rare || [Quality] == Unique) && [Flag] == Ethereal # [Defense] >= 150  && [fireresist]+[lightresist]+[coldresist] >= 20
+[type] == armor && ([Quality] == Magic || [Quality] == Rare || [Quality] == Unique) && [Flag] != Ethereal # [Defense] >= 150  && [fireresist]+[lightresist]+[coldresist] >= 20
+
+// weapon
+[Type] == Polearm && ([Quality] == Magic || [Quality] == Rare || [Quality] == Unique) && [Flag] != Ethereal # [MaxDamage] >= 45 && ([EnhancedDamage] >= 80 || [LifeLeech] >= 1 || [ItemMaxDamagePerLevel] >= 1 )
+[Type] == Polearm && ([Quality] == Magic || [Quality] == Rare || [Quality] == Unique) && [Flag] == Ethereal # [MaxDamage] >= 45 && ([EnhancedDamage] >= 80 || [LifeLeech] >= 1 || [ItemMaxDamagePerLevel] >= 1 )
+[Type] == Spear && ([Quality] == Magic || [Quality] == Rare || [Quality] == Unique) && [Flag] != Ethereal # [MaxDamage] >= 45 && ([EnhancedDamage] >= 80 || [LifeLeech] >= 1 || [ItemMaxDamagePerLevel] >= 1 )
+[Type] == Spear && ([Quality] == Magic || [Quality] == Rare || [Quality] == Unique) && [Flag] == Ethereal # [MaxDamage] >= 45 && ([EnhancedDamage] >= 80 || [LifeLeech] >= 1 || [ItemMaxDamagePerLevel] >= 1 )

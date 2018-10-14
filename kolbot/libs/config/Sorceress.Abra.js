@@ -230,7 +230,8 @@ function LoadConfig() {
 	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
-	Config.LifeChicken = 5; // Exit game if life is less or equal to designated percent.
+	Config.LifeChicken = 0; // Exit game if life is less or equal to designated percent.
+	Config.Revive = true;
 	Config.ManaChicken = 0; // Exit game if mana is less or equal to designated percent.
 	Config.MercChicken = 0; // Exit game if merc's life is less or equal to designated percent.
 	Config.TownHP = 35; // Go to town if life is under designated percent.

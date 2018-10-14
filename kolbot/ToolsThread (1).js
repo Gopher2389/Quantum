@@ -560,7 +560,7 @@ function main() {
 					break;
 				}
 
-				if (Config.LifeChicken = 0 && Config.Revive === true && me.mode === 17) {
+				if (Config.LifeChicken == 0 && Config.Revive == true && me.mode == 17) {
 					var corpse;
 					corpse = getUnit(0, me.name, 17);
 					

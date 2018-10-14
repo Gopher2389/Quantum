@@ -497,6 +497,8 @@ var Config = {
 		Enabled: false,
 		Template: "",
 		Verbose: false,
-		DebugMode: false
+		DebugMode: false,
+		RespecLevel: false,
+		RespecTemplate: false
 	}
 };

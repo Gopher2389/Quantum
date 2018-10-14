@@ -578,12 +578,10 @@ function LoadConfig() {
 	
 	// AutoBuild System ( See /d2bs/kolbot/libs/config/Builds/README.txt for instructions )
 	Config.AutoBuild.Enabled = true;			//	This will enable or disable the AutoBuild system
-	
-	Config.AutoBuild.Template = "Blizzard";	//	The name of the build associated with an existing 
-												//	template filename located in libs/config/Builds/
 
-	Config.AutoBuild.Verbose = false;			//	Allows script to print messages in console
-	Config.AutoBuild.DebugMode = false;			//	Debug mode prints a little more information to console and 
-												//	logs activity to /logs/AutoBuild.CharacterName._MM_DD_YYYY.log
-												//	It automatically enables Config.AutoBuild.Verbose
+	Config.AutoBuild.Template = "Meteor";	//	The name of the build associated with an existing 
+	Config.AutoBuild.Verbose = true;		
+	Config.AutoBuild.DebugMode = true;
+	Config.AutoBuild.RespecLevel = 25;
+	Config.AutoBuild.RespecTemplate = "Blizzard";
 }

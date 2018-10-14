@@ -115,6 +115,7 @@ var Config = {
 
 	// Healing and chicken
 	LifeChicken: 0,
+	Revive: false,
 	ManaChicken: 0,
 	UseHP: 0,
 	UseMP: 0,

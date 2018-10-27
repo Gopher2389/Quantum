@@ -840,7 +840,7 @@ var Item = {
 			return false;
 		}
 		
-        return true;
+        return false;
     },
 
 	// returns true if the item should be kept+logged, false if not
